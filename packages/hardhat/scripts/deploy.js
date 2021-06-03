@@ -10,8 +10,6 @@ const main = async () => {
   console.log("\n\n 📡 Deploying...\n");
 
 
-  const yourContract = await deploy("YourContract")
-
   const flashLiquidationAdapter = await deploy("FlashLiquidationAdapter", ['0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5', '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D', '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'])
   
   console.log(
